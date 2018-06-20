@@ -1,5 +1,30 @@
 # shins
 
+## Ciitizen Specific Usage
+
+1. Clone the `ciitizen-object-store-service` project
+2. Install [Widdershins](https://github.com/Mermade/widdershins) 
+
+	```sh
+	$ npm install -g widdershins
+	```
+	
+3. From the `ciitizen-object-store-service` project root 
+
+	```sh
+	$ widdershins documentation/external.json documentation.md
+	```
+
+4. Replace the `source/index.html.md` file in the `shins` project with the generated `documentation.md` file in the `ciitizen-object-store-service` project
+5. Build the final html file. From the `shins` project root 
+	
+	```sh
+	$ node shins.js --online
+	```
+	
+6. The `index.html` file in the project root should now be ready to be published
+
+--
 ### Shins Is Not Slate
 
 Beautiful static documentation for your API.
