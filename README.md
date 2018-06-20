@@ -2,6 +2,8 @@
 
 ## Ciitizen Specific Usage
 
+### Generating API documentation for the external object store endpoints
+
 1. Clone the `ciitizen-object-store-service` project
 2. Install [Widdershins](https://github.com/Mermade/widdershins) 
 
